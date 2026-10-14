@@ -32,3 +32,7 @@ Experimental builds must be prereleases and must not become the latest stable.
 Windows x64 builds include offline models. A compatible Microsoft Visual C++ x64
 runtime is required. Current builds are unsigned; your Windows/office policies apply.
 No automatic executable download or installation runs in the application.
+
+The landing page preview is captured from the Compass production renderer using
+synthetic sample documents. No personal corpus content is included. Regenerate it
+with `node scripts/distribution/capture-site-preview.cjs` in the local app workspace.
