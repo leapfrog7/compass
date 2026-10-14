@@ -1,6 +1,6 @@
 # Compass for Windows
 
-**Find. Verify. Understand.**
+**Your documents, within easy reach**
 
 Local PDF search, source verification, Deep Search, English OCR and extracted tables.
 
