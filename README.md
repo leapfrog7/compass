@@ -2,7 +2,7 @@
 
 **Your documents, within easy reach**
 
-Local PDF search, source verification, Deep Search, English OCR and extracted tables.
+Local document search, source verification, Deep Search, local Analytics, English OCR and extracted tables.
 
 - Website: https://leapfrog7.github.io/compass/
 - Latest stable release: https://github.com/leapfrog7/compass/releases/latest
