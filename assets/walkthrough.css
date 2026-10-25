@@ -1,0 +1,27 @@
+/* A worked example, with a collection at left and actual application evidence at right. */
+.walkthrough-heading{display:grid;grid-template-columns:1.2fr 1fr;gap:0 70px;align-items:end;margin-bottom:36px}
+.walkthrough-heading .eyebrow{grid-column:1/-1}
+.walkthrough-heading>p:last-child{font-size:14px;line-height:1.8;color:var(--muted);margin:0 0 4px}
+.walkthrough{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);border-top:1px solid var(--line);margin-bottom:32px}
+.collection-example{padding:27px 38px 8px 0;min-width:0}
+.walkthrough-label{margin:0 0 8px;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--brass)}
+.walkthrough h3{font-size:18px;font-weight:550;margin:0 0 25px}
+.folder-example{padding-block:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:22px}
+.folder-name{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--petrol);margin:0 0 12px}
+.folder-name svg{width:21px;height:21px;flex:none}
+.file-tree{list-style:none;margin:0 0 12px 10px;padding:0 0 0 20px;border-left:1px solid #abb9ae}
+.file-tree li{position:relative;display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:10px 0;font-size:12px;line-height:1.6}
+.file-tree li::before{content:'';position:absolute;top:20px;left:-20px;width:12px;border-top:1px solid #abb9ae}
+.file-tree small{font-size:9px;font-weight:600;letter-spacing:.04em;color:var(--muted);flex:none}
+.example-caption{font-size:10px;color:var(--muted);margin:12px 0 0}
+.walkthrough-copy{font-size:13px;line-height:1.85;margin:0;color:var(--muted)}
+.walkthrough-copy strong{font-weight:600;color:var(--petrol)}
+.preparation-note{font-size:11px;line-height:1.8;color:var(--muted);margin:18px 0 0;padding-left:12px;border-left:2px solid #bca578}
+.search-example{margin:0;min-width:0;padding:27px 0 8px 38px;border-left:1px solid var(--line)}
+.result-example{display:block;background:#fff;border:1px solid #bfc6bb}
+.result-example img{display:block;width:100%;height:auto}
+.search-example figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 14px;margin:12px 0 20px;font-size:10px;color:var(--muted)}
+.search-example figcaption a{color:var(--petrol)}
+@media(max-width:1100px){.walkthrough-heading{gap:0 38px}.walkthrough{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.collection-example{padding-right:25px}.search-example{padding-left:25px}}
+@media(max-width:800px){.walkthrough-heading{grid-template-columns:1fr;gap:18px}.walkthrough-heading .eyebrow{margin:0}.walkthrough-heading>p:last-child br{display:none}.walkthrough{grid-template-columns:1fr}.collection-example{padding:24px 0;display:grid;grid-template-columns:1fr 1fr;gap:0 30px}.collection-example>.walkthrough-label,.collection-example>h3{grid-column:1}.collection-example>h3{margin-bottom:18px}.folder-example{grid-column:1;grid-row:3/5;margin:0}.collection-example>.walkthrough-copy{grid-column:2;grid-row:3}.preparation-note{grid-column:2;grid-row:4;align-self:start}.search-example{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.search-example h3{margin-bottom:18px}}
+@media(max-width:560px){.walkthrough-heading{margin-bottom:26px}.walkthrough-heading h2{font-size:35px}.walkthrough-heading>p:last-child{font-size:13px}.collection-example{display:block}.walkthrough h3{font-size:18px}.folder-example{margin-bottom:20px;padding-block:18px}.file-tree li{font-size:13px;padding-block:8px}.file-tree li::before{top:18px}.walkthrough-copy{font-size:13px}.search-example figcaption{font-size:10px}.preparation-note{margin-top:15px}}

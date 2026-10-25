@@ -12,6 +12,7 @@
   <title>Compass — Search the documents on your computer</title>
   <link rel="icon" href="assets/compass.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/walkthrough.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -46,13 +47,27 @@
   </section>
 
   <section id="how-to" class="workflow shell section-rule" aria-labelledby="how-title">
-    <div class="section-intro"><p class="eyebrow">How Compass works</p><h2 id="how-title">From your folders<br>to the source.</h2><p>Prepare the files you choose, search them, then check the original.</p></div>
-    <ol class="steps">
-      <li><span class="step-number">01</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 9V6h10l3 3h13v17H3Z"/><path d="M3 12h26"/></svg><h3>Your folders</h3><p>Add files or a folder. Select what you want to make searchable; your originals stay untouched.</p></li>
-      <li><span class="step-number">02</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 5h22v16H5Z M2 26h28 M12 21v5m8-5v5"/><path d="m12 13 3 3 6-6"/></svg><h3>Index locally</h3><p>Compass reads and prepares your files on your computer, including scanned pages with built-in OCR.</p></li>
-      <li><span class="step-number">03</span><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="13" cy="13" r="9"/><path d="m20 20 9 9 M9 13h8"/></svg><h3>Search</h3><p>Type words, a topic or a question. Narrow your search to the folders or formats you need.</p></li>
-      <li><span class="step-number">04</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 3h13l7 7v19H6Z M19 3v7h7 M11 16h10m-10 5h7"/></svg><h3>Open the original</h3><p>Read the matching passage, then open its source. Verify the detail before using it.</p></li>
-    </ol>
+    <div class="walkthrough-heading"><p class="eyebrow">How Compass works · An example</p><h2 id="how-title">A folder full of files.<br><em>The passage you needed.</em></h2><p>You remember the subject.<br>You don’t need to remember the filename.</p></div>
+    <div class="walkthrough">
+      <div class="collection-example">
+        <p class="walkthrough-label">Prepare once</p>
+        <h3>Start with a folder you use.</h3>
+        <div class="folder-example" role="group" aria-label="Illustrative collection of sample files">
+          <p class="folder-name"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 7V4h7l3 3h8v13H3Z"/></svg>Office documents</p>
+          <ul class="file-tree"><li><span>Employee leave policy</span><small>PDF</small></li><li><span>Office handbook</span><small>PDF</small></li><li><span>Staff application forms</span><small>PDF</small></li></ul>
+          <p class="example-caption">Example files, already in their own folder.</p>
+        </div>
+        <p class="walkthrough-copy">Add files or a folder to Compass, then select what to index. Compass prepares a local search copy; the original files stay where they are.</p>
+        <p class="preparation-note">Large or scanned files take longer to prepare. You only repeat this when a file changes.</p>
+      </div>
+      <figure class="search-example">
+        <p class="walkthrough-label">Search whenever you need it</p>
+        <h3>“Where is the leave policy?”</h3>
+        <a class="result-example" href="assets/compass-search.jpg?v=0.1.5" target="_blank" rel="noopener" aria-label="Inspect this real Compass search example at full size (new tab)"><img src="assets/compass-search.jpg?v=0.1.5" width="1440" height="740" loading="lazy" decoding="async" alt="Compass finds the Employee leave policy, highlights the matching passage on page 12 and offers Open source to verify it."></a>
+        <figcaption><span>Actual Compass search · sample documents</span><a href="assets/compass-search.jpg?v=0.1.5" target="_blank" rel="noopener">Inspect the result <span aria-hidden="true">↗</span><span class="sr-only"> (new tab)</span></a></figcaption>
+        <p class="walkthrough-copy">Search <strong>leave policy</strong>. Read the matching passage, then choose <strong>Open source</strong> to check the original. Search gets you there; the document is still your reference.</p>
+      </figure>
+    </div>
     <div class="formats"><span>Works with</span><ul aria-label="Supported formats"><li>PDF</li><li>Word <small>.docx</small></li><li>PowerPoint <small>.pptx</small></li><li>Excel <small>.xlsx</small></li><li>Text <small>.txt</small></li><li>Markdown <small>.md</small></li></ul><p>Excel workbooks up to 5 MB. English OCR for scanned PDFs. PowerPoint images are not indexed.</p></div>
   </section>
 
