@@ -3,7 +3,7 @@
 **Your documents. Searchable. On your computer.**
 
 Compass searches the files already on your computer. Local document search,
-source verification, Deep Search, Analytics, English OCR and PDF table extraction.
+source verification, Deep Search, Analytics, English/Hindi OCR and PDF table extraction.
 
 - Website: https://leapfrog7.github.io/compass/
 - Latest stable release: https://github.com/leapfrog7/compass/releases/latest
