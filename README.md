@@ -48,4 +48,8 @@ uses GitHub's latest stable redirect, requiring no per-release URL edit.
 Experimental builds must be prereleases and must not become the latest stable.
 
 Windows 10/11 x64 builds include offline models. A compatible Microsoft Visual C++
-x64 runtime is required. Current builds are unsigned; office security policies apply.
+x64 runtime is required. The installer checks this prerequisite and offers a
+verified Microsoft download if it is missing. Installing or repairing the system
+runtime requires administrator/IT approval; Compass itself installs per user.
+The portable ZIP also requires this runtime. Current builds are unsigned;
+office security policies apply.
